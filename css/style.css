@@ -4,7 +4,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    /* TEST */
+   
    
 }
 
@@ -30,7 +30,12 @@ body{
 
 /* HEADER  */
 header{
-    position: fixed;
+    width: 100%;
+    /* position: fixed; */
+    top: 0px;
+    left: 0;
+    z-index: 5;
+   
 }
 .col-10{
     width: 10%;
@@ -76,7 +81,8 @@ header{
  .jumbotron{
      background-color: #b4d0e7;
      /* TEST */
-     /* position: relative; */
+      position: relative; 
+      z-index: 1;
     /* height: 500px;  */
  }
 
@@ -87,14 +93,19 @@ header{
  
  h1{
      font-size: 70px;
+     padding: 40px 0;
+ }
+
+ .jumbo-content{
+     width: 30%;
+     padding:20px 0;
  }
 
 
  .jumbo-img{ 
      width: 50%;
-     float: right; 
-     /* TEST */
-     /* position: absolute; */
-     /* right: 20px; */
-     /* top: 50px; */
+     
+      position: absolute; 
+      right: 205px; 
+      top: 288px; 
  }
