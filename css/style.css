@@ -17,7 +17,6 @@ body{
 }
 
 
-
 .clearfix::after{
     content:"";
     display:table;
@@ -26,6 +25,27 @@ body{
 
 .col{
     float: left;
+}
+
+/* BUTTONS */
+
+.btn{
+    display: inline-block;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.blu-btn{
+    color: white;
+    background-color: #0061ff;
+    padding: 1px 5px;
+}
+#small-b{
+    color: white;
+    background-color: #0061ff;
+    font-size: 13px;
+    padding: 6px 18px;
+
 }
 
 /* HEADER  */
@@ -42,7 +62,7 @@ header{
 }
 .col-10 img{
     vertical-align: middle;
-    padding: 15px;
+    padding: 10px 13px;
 }
 .col-40left{
     width: 40%;
@@ -78,6 +98,7 @@ header{
  /* MAIN */
 
  /* jumbotron */
+
  .jumbotron{
      background-color: #b4d0e7;
      /* TEST */
