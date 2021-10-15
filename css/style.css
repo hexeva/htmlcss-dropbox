@@ -51,7 +51,7 @@ body{
 /* HEADER  */
 header{
     width: 100%;
-    /* position: fixed; */
+     position: fixed; 
     top: 0px;
     left: 0;
     z-index: 5;
@@ -101,9 +101,11 @@ header{
 
  .jumbotron{
      background-color: #b4d0e7;
-     /* TEST */
+     margin-top:80px;
       position: relative; 
       z-index: 1;
+     /* TEST */
+
     /* height: 500px;  */
  }
 
