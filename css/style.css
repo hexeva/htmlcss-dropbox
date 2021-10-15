@@ -1,0 +1,35 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    /* TEST */
+    border: 1px solid green;
+}
+
+/* COMMON */
+img{
+    width: 100%;
+}
+
+.clearfix::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.col{
+    float: left;
+}
+
+/* HEADER  */
+.col-10{
+    width: 10%;
+}
+.col-40{
+    width: 40%;
+}
+.top-nav{
+    height: 80px;
+}
