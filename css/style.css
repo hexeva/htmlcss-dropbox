@@ -27,6 +27,11 @@ body{
     float: left;
 }
 
+.container{
+    width: 70%;
+    margin: auto;
+}
+
 /* BUTTONS */
 
 .btn{
@@ -51,6 +56,7 @@ body{
 /* HEADER  */
 header{
     width: 100%;
+    background-color: white;
      position: fixed; 
     top: 0px;
     left: 0;
@@ -126,17 +132,35 @@ header{
 
  .jumbo-content{
      width: 30%;
-     padding:20px 0;
+     padding-top:20px;
+     padding-bottom: 100px;
  }
- .jumbo-content a{
-     margin-top:30px;
-     margin-bottom:10px;
- }
+ 
 
  .jumbo-img{ 
      width: 50%;
      
       position: absolute; 
       right: 205px; 
-      top: 288px; 
+      top: 272px; 
+ }
+
+ .jumbo-b{
+     margin-top:20px;
+     margin-bottom: 10px;
+ }
+
+ .jumbo-bottom{
+     margin-top:10px;
+     margin-bottom: 50px;
+ }
+
+
+ /* FIRST SECTION */
+
+ section{
+     margin: 100px 0;
+     padding: 30px 0;
+
+     
  }
