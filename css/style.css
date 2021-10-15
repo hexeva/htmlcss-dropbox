@@ -88,10 +88,14 @@ header{
     padding:0 40px;
 }
 
-.links li a{
+.underline{
     text-decoration: none;
     color: black;
     display: inline-block;
+}
+.underline:hover{
+    border-bottom: 2px solid black;
+
 }
 
 
