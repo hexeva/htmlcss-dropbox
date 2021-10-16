@@ -226,13 +226,13 @@ header{
 
  .col-30{
      width: 30%;
-     border: 1px solid lightgray;
+     border: 1px solid lightgray; 
     
    
  }
  .central-col{
      
-     margin: 0 5%;
+      margin: 0 5%; 
  }
 
  .heading{
