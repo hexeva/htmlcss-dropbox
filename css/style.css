@@ -227,6 +227,7 @@ header{
  .col-30{
      width: 30%;
      border: 1px solid lightgray;
+    
    
  }
  .central-col{
@@ -241,7 +242,7 @@ header{
      line-height: 50px;  
  }
  .col-container{
-     width:80%;
+     width:85%;
      margin: auto;
  }
 
@@ -249,6 +250,14 @@ header{
  .option-list{
      margin: 30px 0;
      padding-top: 20px;
+     padding-bottom: 20px;
+ }
+ .option-list::after{
+     display: block;
+     content:"";
+     width: 60px;
+     height:2px;
+     background-color: lightgray;
  }
 
  .option-list ul{
@@ -261,4 +270,20 @@ header{
 
  .button-li{
      text-align: center;
+ }
+ .violet-link{
+     text-decoration: none;
+   
+    color: #0061ff ;
+ }
+
+ .checklist{
+     list-style-type: none;
+ }
+
+ .checklist li{
+     margin-bottom: 20px;
+ }
+ .checklist li i{
+     color:#0061ff;
  }
