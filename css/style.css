@@ -141,9 +141,9 @@ header{
      margin-top:80px;
       position: relative; 
       z-index: 1;
-     /* TEST */
+    
 
-    /* height: 500px;  */
+    
  }
 
  .jumbo-container{
@@ -266,12 +266,14 @@ header{
  }
 
  .option-list ul li{
-     padding-top:15px;
-     padding-bottom: 15px;
-     padding-left:20px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left:20px;
  }
- ul li span{
-     margin: -20px;
+ 
+ .icon{
+     
+     margin-left: -20px;
  }
 
  .button-li{
@@ -281,6 +283,13 @@ header{
      text-decoration: none;
      font-weight: bold;
     color: #0061ff ;
+ }
+
+ .option-list-bottom ul li{
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left:20px;
+
  }
 
  .checklist{
@@ -311,13 +320,23 @@ header{
 
  .section-col70{
      width: 70%;
+     padding-left: 30px;
+     padding-bottom: 30px;
 
  }
 
  .section-col30{
      width: 30%;
+     padding-top: 30px;
  }
 
 #btn-special{
-    padding: 8px 60px;
+    padding: 8px 65px;
+}
+/* end section 1 */
+
+/* section 2 */
+
+.col-50{
+    width: 50%;
 }
