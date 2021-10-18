@@ -259,6 +259,7 @@ header{
      width: 60px;
      height:2px;
      background-color: lightgray;
+     margin-top: 10px;
  }
 
  .option-list ul{
@@ -470,6 +471,7 @@ header{
  .img-wrap{
      width: 150px;
      height: 75px;
+     /* position: relative; */
  }
 
  .img-wrap::after{
@@ -478,7 +480,14 @@ header{
     width: 60px;
     height:2px;
     background-color: #e0e0e2;
+    /* position: absolute; */
+    /* bottom:0px; */
+    margin-top:20px;
 
+ }
+
+ .col-logos img{
+     filter: invert(1);
  }
 
  
