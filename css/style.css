@@ -368,13 +368,41 @@ header{
 
 /* SECTION 3 */
 
+.section-3{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 30px 0;
+}
+
 .col30-row{
     width: 30%;
-    padding: 25px;
+    padding: 30px;
     
-    /* border: 1px solid green; */
+   
 }
 
 .dropbox-underline{
     text-decoration: underline;
 }
+/* end section 4 */
+
+/* SECTION 4 */
+
+.col-logos{
+    width: 400px;
+    /* test */
+    height: 400px;
+}
+
+ .col-text{
+     width: calc(100% - 800px);
+     /* test */
+     height:400px;
+ }
+
+ .box{
+     width: 200px;
+     height: 200px;
+ }
+
+ 
