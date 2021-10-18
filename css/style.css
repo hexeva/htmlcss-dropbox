@@ -227,8 +227,7 @@ header{
  .col-30{
      width: 30%;
      border: 1px solid lightgray; 
-     /* TEST */
-     height: 1100px;
+     height: 1200px;
     
    
  }
@@ -267,7 +266,12 @@ header{
  }
 
  .option-list ul li{
-     padding: 15px 0;
+     padding-top:15px;
+     padding-bottom: 15px;
+     padding-left:20px;
+ }
+ ul li span{
+     margin: -20px;
  }
 
  .button-li{
@@ -289,3 +293,31 @@ header{
  .checklist li i{
      color:#0061ff;
  }
+
+ /* first section bottom */
+
+ .bottom-main{
+    border: 1px solid lightgray;
+    margin: 50px 0;
+ }
+
+ .bottom-heading{
+     height: 50px;
+     text-align: center;
+     line-height: 50px;
+     border-bottom: 1px solid lightgray;
+     
+ }
+
+ .section-col70{
+     width: 70%;
+
+ }
+
+ .section-col30{
+     width: 30%;
+ }
+
+#btn-special{
+    padding: 8px 60px;
+}
