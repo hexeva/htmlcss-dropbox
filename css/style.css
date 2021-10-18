@@ -385,9 +385,15 @@ header{
 .dropbox-underline{
     text-decoration: underline;
 }
-/* end section 4 */
+/* end section 3 */
 
 /* SECTION 4 */
+
+.heading-4{
+    width: 55%;
+    margin: 50px 20px;
+    
+}
 
 .col-logos{
     width: 500px;
@@ -499,10 +505,54 @@ header{
      background-color: #b4d0e7;
  }
 
- .col-50{
-     width: 50%;
-     /* test */
-     height: 400px;
-     border: 1px solid black;
+ .col-sect4-text{
+     width: 55%;
+     padding-top: 80px;
+     height: 300px;
+     
  }
+
+ .col-sect4-btn{
+     width: 45%;
+     text-align: center;
+     
+     height: 300px;
+     padding-top: 97px;
+     
+ }
+
+ #h2-special{
+     color: #61082b;
+ }
+
+ .white-btn{
+     color: black;
+     background-color: white;
+
+ }
+
+/* end section 4*/
+
+/* SECTION FAQ */
+
+.col-faq-90{
+    width: 90%;
+    border-bottom:1px solid lightgray ;
+    height: 80px;
+    
+}
+
+.col-faq-10{
+    width: 10%;
+    height: 80px;
+    border-bottom: 1px solid lightgray;
+    text-align:center;
+    line-height:80px ;
+}
+
+/* end section faq */
+
+/* END MAIN */
+
+/* FOOTER */
  
