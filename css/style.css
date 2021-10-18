@@ -555,4 +555,16 @@ header{
 /* END MAIN */
 
 /* FOOTER */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-col{
+    width:calc(100% / 5);
+    border: 1px solid white;
+    /* test */
+    height: 300px;
+}
  
