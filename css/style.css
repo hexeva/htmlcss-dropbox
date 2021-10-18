@@ -370,7 +370,11 @@ header{
 
 .col30-row{
     width: 30%;
-    /* test */
-    height: 500px;
-    border: 1px solid green;
+    padding: 25px;
+    
+    /* border: 1px solid green; */
+}
+
+.dropbox-underline{
+    text-decoration: underline;
 }
