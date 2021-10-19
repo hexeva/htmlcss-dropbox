@@ -60,6 +60,9 @@ h5{
     line-height: normal;
     text-decoration: none;
 }
+.btn:hover{
+    filter: opacity(60%);
+}
 
 .blu-btn{
     color: white;
@@ -578,9 +581,10 @@ footer{
 .footer-end::before{
     display: block;
     content:"";
-    width: 100px;
+    width: 120px;
     height:1px;
     background-color: #e0e0e2;
+    margin-left: 21px;
      
 }
 
@@ -604,12 +608,14 @@ footer{
 .footer-end{
     background-color: black;
     /* test */
-height: 300px;
-padding: 50px;
+    min-height: 200px;
+    padding: 50px;
 }
 
 .end-content{
     filter: opacity(50%);
+    margin: 20px 0;
+    padding:30px 20px;
 
 
 }
