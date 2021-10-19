@@ -227,7 +227,7 @@ header{
  .col-30{
      width: 30%;
      border: 1px solid lightgray; 
-     height: 1200px;
+     min-height: 1300px;
     
    
  }
@@ -572,7 +572,7 @@ footer{
 .footer-col{
     width:calc(100% / 5);
     padding: 70px 70px;
-  height: 400px; 
+    min-height: 400px; 
 }
 
 .footer-end::before{
@@ -581,7 +581,7 @@ footer{
     width: 100px;
     height:1px;
     background-color: #e0e0e2;
-    /* margin-top:20px; */
+     
 }
 
 .footer-list{
@@ -605,4 +605,11 @@ footer{
     background-color: black;
     /* test */
 height: 300px;
+padding: 50px;
+}
+
+.end-content{
+    filter: opacity(50%);
+
+
 }
