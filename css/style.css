@@ -395,6 +395,14 @@ header{
     
 }
 
+.heading-4 a{
+    color: #0061ff;
+}
+
+.heading-4 h2{
+    margin-bottom: 20px;
+}
+
 .col-logos{
     width: 500px;
     height: 500px;
@@ -563,8 +571,38 @@ footer{
 
 .footer-col{
     width:calc(100% / 5);
-    border: 1px solid white;
-    /* test */
-    height: 300px;
+    padding: 70px 70px;
+  height: 400px; 
 }
- 
+
+.footer-end::before{
+    display: block;
+    content:"";
+    width: 100px;
+    height:1px;
+    background-color: #e0e0e2;
+    /* margin-top:20px; */
+}
+
+.footer-list{
+    list-style-type: none;
+    line-height: 35px;
+}
+
+.footer-list li{
+    font-size: 13px;
+}
+
+
+
+.footer-col h4{
+    font-size: 20px;
+}
+
+/* footer end page */
+
+.footer-end{
+    background-color: black;
+    /* test */
+height: 300px;
+}
