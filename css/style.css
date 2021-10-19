@@ -546,6 +546,15 @@ header{
 
 /* SECTION FAQ */
 
+.faq-title{
+    margin-top:80px;
+   
+}
+
+.sect-faq{
+    margin: 120px 0;
+}
+
 .col-faq-90{
     width: 90%;
     border-bottom:1px solid lightgray ;
